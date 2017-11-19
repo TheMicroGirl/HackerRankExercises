@@ -20,7 +20,8 @@ public class Solution {
         for(int apple_i=0; apple_i < m; apple_i++){
             apple[apple_i] = in.nextInt();
 
-            if (apple[apple_i]>=s-a && apple[apple_i] <= t-a){
+            if (apple[apple_i]>=s-a && apple[apple_i] <= t-a){ //if  it is a positive
+              //value and within limits
                 apples++;
             }
         }
@@ -30,6 +31,8 @@ public class Solution {
             orange[orange_i] = in.nextInt();
 
             if (orange[orange_i]<=t-b && orange[orange_i]>=s-b){
+              //if  it is a negative
+                //value and within limits
                 oranges++;
             }
         }
